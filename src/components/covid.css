@@ -1,5 +1,5 @@
 /*-----------------------------------*\
-  #style.css
+  #Covid.css
 \*-----------------------------------*/
 
 /**
@@ -132,6 +132,7 @@ address {
 html {
   font-family: var(--ff-roboto);
   font-size: 10px;
+  -webkit-scroll-behavior: smooth;
   scroll-behavior: smooth;
 }
 
@@ -346,6 +347,10 @@ body.active {
   background-color: var(--red-orange-creyola);
 }
 
+.hero-list-item.lightyellow::before {
+  background-color: chartreuse;
+}
+
 .hero-banner .w-100 {
   animation: rotate 20s linear infinite;
 }
@@ -461,7 +466,7 @@ body.active {
      */
 
   .hero-list {
-    max-width: 275px;
+    max-width: 370px;
   }
 }
 
@@ -590,5 +595,12 @@ body.active {
 
   .hero .counter {
     --fs-2: 8rem;
+  }
+}
+
+/* Temporarily removed content */
+@media (max-width: 1200px) {
+  .hero-banner{
+    display: none;
   }
 }

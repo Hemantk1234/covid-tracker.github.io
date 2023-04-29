@@ -31,27 +31,27 @@ const Covid = () => {
             <div className="container">
               <div className="hero-content">
                 <h1 className="h1 hero-title">COVID-19 Tracker</h1>
-                <p className="hero-text">Tatal Corona Cases In India</p>
+                <p className="hero-text">Total Corona Cases In India</p>
                 <data className="counter" value={data.TotalConfirmed}>
                   {data.TotalConfirmed}
                 </data>
                 <ul className="hero-list">
-                  <li className="hero-list-item yellow">
+                  <li className="hero-list-item red">
                     Total Deaths <span className="span">{data.TotalDeaths}</span>
                   </li>
                   <li className="hero-list-item green">
                     Total Recovered <span className="span">{data.TotalRecovered}</span>
                   </li>
-                  <li className="hero-list-item red">
+                  <li className="hero-list-item yellow">
                     New Confirmed <span className="span">{data.NewConfirmed}</span>
                   </li>
                   <li className="hero-list-item red">
                     New Deaths <span className="span">{data.NewDeaths}</span>
                   </li>
-                  <li className="hero-list-item red">
+                  <li className="hero-list-item green">
                     New Recovered <span className="span">{data.NewRecovered}</span>
                   </li>
-                  <li className="hero-list-item red">
+                  <li className="hero-list-item lightyellow">
                     Last Updated <span className="span">{data.Date}</span>
                   </li>
                 </ul>
@@ -110,31 +110,31 @@ const Covid = () => {
               </li>
               <li className="footer-list-item">
                 <ion-icon name="caret-forward" aria-hidden="true" />
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Advertisers
                 </a>
               </li>
               <li className="footer-list-item">
                 <ion-icon name="caret-forward" aria-hidden="true" />
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Developers
                 </a>
               </li>
               <li className="footer-list-item">
                 <ion-icon name="caret-forward" aria-hidden="true" />
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Resources
                 </a>
               </li>
               <li className="footer-list-item">
                 <ion-icon name="caret-forward" aria-hidden="true" />
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Company
                 </a>
               </li>
               <li className="footer-list-item">
                 <ion-icon name="caret-forward" aria-hidden="true" />
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Connect
                 </a>
               </li>
@@ -180,31 +180,31 @@ const Covid = () => {
               </li>
               <li className="footer-list-item">
                 <ion-icon name="caret-forward" aria-hidden="true" />
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Advertiser Agreement
                 </a>
               </li>
               <li className="footer-list-item">
                 <ion-icon name="caret-forward" aria-hidden="true" />
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Acceptable Use Policy
                 </a>
               </li>
               <li className="footer-list-item">
                 <ion-icon name="caret-forward" aria-hidden="true" />
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Privacy Policy
                 </a>
               </li>
               <li className="footer-list-item">
                 <ion-icon name="caret-forward" aria-hidden="true" />
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Technology Privacy
                 </a>
               </li>
               <li className="footer-list-item">
                 <ion-icon name="caret-forward" aria-hidden="true" />
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Developer Agreement
                 </a>
               </li>
